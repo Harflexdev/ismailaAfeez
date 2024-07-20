@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <nav>
+       <div class="nav-links">
+        <a href="#home"><i class="fa-solid fa-house"></i></a>
+        <a href="#about"><i class="fa-solid fa-address-card"></i></a>
+        <a href="#experience"><i class="fa-brands fa-creative-commons-nd"></i></a>
+        <a href="#portfolio"><i class="fa-solid fa-briefcase"></i></a>
+        <a href="#contact"><i class="fa-solid fa-phone"></i></a>
+        <button onclick="toggleDarkMode()" id="btn"> Mode</button>
+
+       </div>
+    </nav>
+    <section id="home">
+        <div class="home-container">
+            <div class="home-item">
+                <h4 data-aos="fade-left">Hello I'm</h4>
+                <h1  data-aos="zoom-in">Ismaila Afeez</h1>
+                <p data-aos="zoom-out">Front End Developer</p>
+                <div class="cv"  data-aos="fade-up">
+                    <div class="cv-item" >
+                        <button>Download CV</button>
+                    </div>
+                    <div class="cv-item" >
+                        <button>Let Talk</button>
+                    </div>
+                </div>
+            </div>
+            <div class="home-item">
+                <div class="child">
+                    <div class="child-item">
+                        <div >
+                            <i class="fa-brands fa-linkedin"></i>
+                            <i class="fa-brands fa-github"></i>
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </div>
+                    </div>
+                    <div class="child-item">
+                        <img src="image/ismaila.png" alt=""  data-aos="fade-up">
+                    </div>
+                    <div class="child-item">
+                        <p >Scroll Down</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About section -->
+
+    <section id="about">
+        <h4 data-aos="fade-up">Get To Know</h4>
+        <p data-aos="fade-up"> About Me</p>
+        <div class="about-container">
+            <div class="about-item" data-aos="fade-up">
+                <div class="image"><img src="./image/ismaila - Copy.png" alt=""></div>
+            </div>
+            <div class="about-item">
+                <div class="about-child" >
+                    <div class="about-child-item" data-aos="fade-up">
+                        <i class="fa fa-certificate" style="display: flex; justify-content: center; align-items: center;margin-top: 20px; color:#4db5ff ;"></i>
+                        <h5>Experience</h5>
+                        <p id="time1"></p>
+                        <p class="p2">Working</p>
+                    </div>
+                    <div class="about-child-item" data-aos="fade-up">
+                        <i class="fa-solid fa-users" style="display: flex; justify-content: center; align-items: center;margin-top: 20px; color:#4db5ff ;"></i>
+                        <h5>Clients</h5>
+                        <p id="time"></p>
+                    </div>
+                    <div class="about-child-item" data-aos="fade-up">
+                        <i class="fa-solid fa-folder" style="display: flex; justify-content: center; align-items: center;margin-top: 20px; color:#4db5ff ;" ></i>
+                        <h5>Projects</h5>
+                        <p id="time3">80+ completed</p>
+                        <p class="p2">Projects</p>
+                    </div>
+                </div>
+                <p data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores nisi quod quia esse nobis excepturi cupiditate consequatur in aut dolorem odio, blanditiis commodi. Consequuntur modi cupiditate eius? Quod, minima.</p>
+                    <button data-aos="fade-up">Let Talk</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experince section -->
+
+     <section id="experience">
+        <h4 data-aos="zoom-out">What Skills I Have</h4>
+        <p data-aos="zoom-out">My Experience </p>
+        <div class="experince-container">
+            <div class="experince-item">
+                <h3 data-aos="fade-up">Frontend Development</h3>
+                <div class="exp">
+                    <div class="exp-item" data-aos="fade-up">
+                        <span><i class="fa-brands fa-html5" style="color: white;"></i><span  style="font-weight: 500; font-size: 7px; color: white;">HTML</span></span>
+                        <span class="experinced">Experienced</span>
+                    </div>
+                    <div class="exp-item" data-aos="fade-up">
+                        <span><i class="fa-brands fa-css3" style="color: white;"></i><span  style="font-weight: 500; font-size: 7px; color: white;">CSS</span></span>
+                        <span class="experinced">Experienced</span>
+                    </div>
+                    <div class="exp-item" data-aos="fade-up">
+                        <span><i class="fa-brands fa-js" style="color: white;"></i><span  style="font-weight: 500; font-size: 7px; color: white;">JAVASCRIPT</span></span>
+                        <span class="experinced">Experienced</span>
+                    </div>
+                </div>
+                <div class="exp">
+                    <div class="exp-item" data-aos="fade-up">
+                        <span><i class="fa-brands fa-bootstrap" style="color: white;"></i><span  style="font-weight: 500; font-size: 7px; color: white;">BOOSTRAP</span></span>
+                        <span class="experinced">Experienced</span>
+                    </div>
+                    <div class="exp-item" data-aos="fade-up">
+                        <span><i class="fa-brands fa-tailwind" style="color: white;"></i><span  style="font-weight: 500; font-size: 7px; color: white;">TAILWIND</span></span>
+                        <span class="experinced">Experienced</span>
+                    </div>
+                    <div class="exp-item" data-aos="fade-up">
+                        <span><i class="fa-brands fa-react" style="color: white;"></i><span  style="font-weight: 500; font-size: 7px; color: white;">REACT</span></span>
+                        <span class="experinced">Experienced</span>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="experince-item">
+                <h3 data-aos="fade-up">Backend Development</h3>
+
+                <div class="exp">
+                    <div class="exp-item" data-aos="fade-up">
+                        <span><i class="fa-brands fa-node-js" style="color: white;"></i><span  style="font-weight: 500; font-size: 7px; color: white;">NodeJs</span></span>
+                        <span class="experinced">Intermediate</span>
+                    </div>
+                    <div class="exp-item" data-aos="fade-up">
+                        <span><i class="fa-brands fa-php" style="color: white;"></i><span  style="font-weight: 500; font-size: 7px; color: white;">PHP</span></span>
+                        <span class="experinced">Intermediate</span>
+                    </div>
+                    <div class="exp-item" data-aos="fade-up">
+                        <span><i class="fa-solid fa-server" style="color: white;"></i><span  style="font-weight: 500; font-size: 7px; color: white;">MySql</span></span>
+                        <span class="experinced">Intermediate</span>
+                    </div>
+                </div>
+                <div class="exp">
+                    <div class="exp-item" data-aos="fade-up">
+                        <span><i class="fa-brands fa-python" style="color: white;"></i><span  style="font-weight: 500; font-size: 7px; color: white;">Python</span></span>
+                        <span class="experinced">Intermediate</span>
+                    </div>
+                    <div class="exp-item" data-aos="fade-up">
+                        <span><i class="fa-brands fa-python" style="color: white;"></i><span  style="font-weight: 500; font-size: 7px; color: white;">MongoDB</span></span>
+                        <span class="experinced">Intermediate</span>
+                    </div>
+                    <div class="exp-item" data-aos="fade-up">
+                        <span><i class="fa-brands fa-github" style="color: white;"></i><span  style="font-weight: 500; font-size: 7px; color: white;">Git & Github</span></span>
+                        <span class="experinced">Experienced</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h4 data-aos="fade-left">My Recent Work</h4>
+        <p data-aos="fade-right">Portfolio </p>
+        <div class="portfolio-container">
+            <div class="portfolio-item" data-aos="zoom-in">
+                <div class="proj"><img src="image/project1.PNG" alt=""></div>
+                <h4 data-aos="zoom-out">Topic Website</h4>
+                <div class="repo">
+                    <div class="repo-item" >
+                       <button><a href="https://github.com/Harflexdev/update-website">GitHub</a></button>
+                    </div>
+                    <div class="repo-item">
+                        <button><a href="https://update-websitepro.vercel.app/">Live Demo</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item" data-aos="zoom-in">
+                <div class="proj"><img src="image/project2.PNG" alt="" style="object-fit: cover;"></div>
+                <h4 data-aos="zoom-out">Food Delivery Website</h4>
+                <div class="repo">
+                    <div class="repo-item">
+                        <button><a href="https://github.com/Harflexdev/update-foodweb">GitHub</a></button>
+                    </div>
+                    <div class="repo-item">
+                        <button><a href="https://update-foodweb.vercel.app/">Live Demo</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item" data-aos="zoom-in">
+                <div class="proj"><img src="image/project3.PNG" alt="" style="object-fit: cover;"></div>
+                <h4 data-aos="zoom-out">Mobile Promotion Website</h4>
+                <div class="repo">
+                    <div class="repo-item">
+                        <button><a href="https://github.com/Harflexdev/Mobile-promotion">GitHub</a></button>
+                    </div>
+                    <div class="repo-item">
+                        <button><a href="https://mobile-promotion-web.vercel.app/">Live Demo</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-container">
+            <div class="portfolio-item" data-aos="zoom-in">
+                <div class="proj"><img src="image/project 4.PNG" alt=""></div>
+                <h4 data-aos="zoom-out">Calculator With Javascript</h4>
+                <div class="repo">
+                    <div class="repo-item">
+                        <button><a href="https://github.com/Harflexdev/Calculatorsoftware">GitHub</a></button>
+                    </div>
+                    <div class="repo-item">
+                        <button><a href="https://calculatorsoftware.vercel.app/">Live Demo</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item" data-aos="zoom-in">
+                <div class="proj"><img src="image/project 5.PNG" alt="" style="object-fit: cover;"></div>
+                <h4 data-aos="zoom-out">Form Validation  Javascript</h4>
+                <div class="repo">
+                    <div class="repo-item">
+                        <button><a href="https://github.com/Harflexdev/Form-Validation">GitHub</a></button>
+                    </div>
+                    <div class="repo-item">
+                        <button><a href="https://form-validationpro.vercel.app/">Live Demo</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item" data-aos="zoom-in">
+                <div class="proj"><img src="image/project6.PNG" alt="" style="object-fit: cover;"></div>
+                <h4 data-aos="zoom-out">Company Website</h4>
+                <div class="repo">
+                    <div class="repo-item">
+                        <button><a href="">GitHub</a></button>
+                    </div>
+                    <div class="repo-item">
+                        <button><a href="">Live Demo</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+   <!-- Testimonials section -->
+    <section id="testimonial">
+        <h4 data-aos="fade-up">Review from clients</h4>
+        <p data-aos="fade-down">Testimonials </p>
+        <div class="testimonial-container">
+            <div class="testimonial-item">
+                <div class="img" data-aos="fade-right"><img src="./image/hero.jpg" alt=""></div>
+                <h5 data-aos="fade-left">Harflex Don</h5>
+                <p data-aos="zoom-out"> <q>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi, soluta eveniet, provident expedita repellendus unde tempore impedit dolore quidem ad esse, fuga cum eum sit odio sed. Sapiente, ullam doloremque!</q></p>
+            </div>
+        </div>
+    </section>
+<!-- C        contact section -->
+
+    <section id="contact">
+        <h4 data-aos="fade-left">Get In Touch</h4>
+        <p data-aos="fade-right">Contact Me </p>
+        <div class="contact-container">
+            <div class="contact-item" data-aos="fade-right">
+                <div class="contact-child">
+                    <div class="contact-child-item" data-aos="fade-up">
+                        <i class="fa-regular fa-envelope" style="color: white; display: flex; justify-content: center; padding: 2%;"></i>
+                        <p>Email</p>
+                        <p>Ismail080@gmail.com</p>
+                        <a href="#">Send a message</a>
+                    </div>
+                    <div class="contact-child-item" data-aos="fade-up">
+                        <i class="fa-brands fa-email" style="color: white;"></i>
+                        <p> WhatsApp</p>
+                        <p>+2348067356383</p>
+                        <a href="#">Send a message</a>
+                    </div>
+                    <div class="contact-child-item" data-aos="fade-up">
+                        <i class="fa-brands fa-email" style="color: white;"></i>
+                        <p>Instagram</p>
+                        <p>Ismaila Afeez</p>
+                        <a href="#">Send a message</a>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-item" data-aos="fade-left">
+                <form action="">
+                    <input type="text" name="" id="" placeholder="Your Full Name">
+                <input type="email" name="" id="" placeholder="Your Email">
+                <textarea name="" id="" placeholder="Your Message"></textarea>
+                </form>                
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="footer-container">
+            <div class="footer-item">
+                <h1><a href="" id="home">Ismaila Afeez</a></h1>
+                <span>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                </span>
+                <main>
+                   <span class="main">
+                    &copy;<span> Ismaila Afeez.All rights reserved  </span>
+                   </span>
+                </main>
+            </div>
+
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="script.js/script.js" > </script>
+    <script>
+    function toggleDarkMode() {
+        const btn = document.getElementById("btn");
+        document.body.classList.toggle('dark-mode');
+        if(document.body.classList.contains("dark-mode")){
+            btn.innerHTML = "Dark"
+        }else{
+            btn.innerHTML = "Light"
+        }
+        
+        };
+
+    </script>
+</body>
+</html>
