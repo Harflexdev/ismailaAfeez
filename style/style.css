@@ -832,8 +832,8 @@ input{
     width: 90%;
     margin-top: 1rem;
     outline: none;
-    padding: 1.3em 1em;
-    font-size: 8px;
+    padding: 0.5em 1em;
+    font-size: 1rem;
     border-radius: 5px;
     background-color:#2c2c6c;
     color: white;
@@ -842,10 +842,11 @@ input{
 textarea{
     margin-top: 30px;
     width: 100%;
-    padding: 3%;
+    padding: 0.5em 1em;
+    font-size: 1rem;
     outline: 0;
     color: white;
-    font-size: 9px;
+    
     height: 70px;
     border: 1px solid var(--color-primary);;
     background-color:#2c2c6c;
