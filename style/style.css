@@ -817,13 +817,13 @@ button>a{
 
 .input-control{
 display: flex;
-  width: 100%;
+  width: 90%;
   justify-content: center;
   align-content: center;
   
 }
 input{
-    width: 90%;
+    width: 100%;
     margin-top: 20px;
     outline: none;
     height: 30px;
@@ -869,10 +869,7 @@ textarea{
         width: 50%;
     }
 
-    input{
-        width: 100%;
-        padding: 0.6em 1em;
-    }
+ 
   
 }
 
