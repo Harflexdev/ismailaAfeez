@@ -103,6 +103,7 @@ body {
 
 .main{
     overflow: hidden ;
+
 }
 #home{
     padding: 2%;
@@ -821,12 +822,14 @@ button>a{
 }
 
 .input-control{
-display: flex;
-  width: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
   
 }
 input{
-    width: 100%;
+    width: 90%;
     margin-top: 1rem;
     outline: none;
     padding: 1.3em 1em;
